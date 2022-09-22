@@ -53,7 +53,7 @@ h1 {
 }
 
 .project a {
-    background: url("../directory_closed_cool-0.png");
+    background: url("/assets/directory_closed_cool-0.png");
     background-repeat: no-repeat;
     width: 96px;
     height: 96px;
@@ -66,11 +66,13 @@ h1 {
     font-size: 32px;
     padding: 32px;
     font-family:sans-serif;
-
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
 }
 
 .project a:hover {
-    background: url("../directory_open_cool-0.png");
+    background: url("/assets/directory_open_cool-0.png");
     background-repeat: no-repeat;
     width: 96px;
     height: 96px;

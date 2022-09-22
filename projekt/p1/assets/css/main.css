@@ -1,0 +1,10 @@
+body {
+    background-image: url(/p1/assets/images/forest.jpg);   
+    padding: 20px;
+}
+
+img {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
