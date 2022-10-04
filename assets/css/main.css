@@ -52,6 +52,13 @@ h1 {
     box-shadow: 5px 5px 3px #000000;
 }
 
+.project p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+    margin-left: -40px;
+}
+
 .project a {
     background: url("../directory_closed_cool-0.png");
     background-repeat: no-repeat;
@@ -65,6 +72,7 @@ h1 {
     text-decoration: none;
     font-size: 32px;
     padding: 32px;
+    padding-bottom: 0px;
     font-family:sans-serif;
     text-align: justify;
     display: block;
