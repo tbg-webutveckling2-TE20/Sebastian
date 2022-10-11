@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<div class="webbsida">
+    <input type="text" size="10" id="loop1text" value="11">
+    <button type="button" id="loop1button">Visa</button>
+    <div id="loop1div">
+        </div>
+
+    <script>
+        document.getElementById('loop1button').addEventListener('click', loop1);
+
+        function loop1() {
+            var text = document.getElementById("loop1text").value;
+            var tal = parseInt(text);
+            document.getElementById("loop1div").innerHTML = "";
+
+            var x = 0;
+            while (x < tal) {
+                if (x % 2 == 0) {
+                document.getElementById("loop1div").innerHTML += "Varv: " + x + "<br>";
+                x++;
+                }
+            }
+        }
+
+    </script>
+
+</html>
